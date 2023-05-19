@@ -1,0 +1,200 @@
+@import url(https://fonts.googleapis.com/css?family=Muli);
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Muli', Arial, sans-serif
+}
+
+.header ul{
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    right: 100px;
+}
+
+.header ul li a{
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;   
+    color: black; 
+    font-size: 18px;
+}
+
+.menu img{
+    width: 150px;
+    height: 130px;
+    border: 50%;
+}
+
+.menu {
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    line-height: 1em;
+    margin: 15px 40px;
+    padding-bottom: 30px;
+  }
+  .menu ul{
+    text-align: center;
+  }
+  .menu li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0.5em 0.6em;
+    padding: 12px 15px;
+    position: relative;
+  }
+  .menu li a {
+    color: black;
+    text-decoration: none;
+  }
+  .menu li:before,
+  .menu li:after {
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.75s ease;
+    height: 2px;
+    width: 35%;
+    background-color: black;
+    position: absolute;
+    content: '';
+    opacity: 0;
+  }
+  .menu li:before {
+    top: 0;
+    left: 0;
+  }
+  .menu li:after {
+    bottom: 0;
+    right: 0;
+  }
+  .menu li:hover:before,
+  .menu li.hover:before,
+  .menu li:hover:after,
+  .menu li.hover:after {
+    opacity: 1;
+  }
+  .menu li:hover:before,
+  .menu li.hover:before {
+    left: 65%;
+  }
+  .menu li:hover:after,
+  .menu li.hover:after {
+     right: 65%;
+  }
+
+  
+.menu ul li .sub-menu{
+    display: none;
+  }
+  
+  .menu ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+  }
+
+  .info ul {
+    padding-bottom: 0;
+    display: flex;
+    text-align: center;
+    background: rgb(240, 240, 240);
+    padding-left: 50px;
+    clear: both;
+  }
+  
+  .info ul li {
+    list-style-type: none;
+    padding: 30px;
+  }
+  
+  .info ul li a{
+    text-decoration: none;
+    color: black;
+    padding-right: 20px;
+  }
+  
+.content-left{
+    height: 400px;
+    width: 500px;
+    float: left;  
+    margin-left: 300px;
+    margin-right: 0;
+}
+
+.content-left img {
+    height: 100%;
+    width: 100%;
+}
+
+.content-right{
+    height: 500px;
+    width: 500px;
+    float: right;
+    margin-right: 200px;
+}
+
+.name h {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+
+.name p{
+    font-size: 20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.size ul {
+    list-style-type: none;
+    display: flex;
+    padding: 30px;
+    padding-top: 0;
+    font-size: 20px;
+}
+
+.size ul li {
+    padding: 20px;
+    border: 1px solid rgb(221, 220, 220);
+    border-radius: 5px;
+}
+
+.size ul li:hover{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.a1{
+  height: 100px;
+  width: 115px;
+  float: left;
+}
+
+.content{
+  height: 500px;
+  width: 100%;
+}
+
+.sub-title{
+  height: 250px;
+  width: 80%;
+  margin: auto;
+  border: 1px solid black;
+}
+
+.sub-title p{
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+}

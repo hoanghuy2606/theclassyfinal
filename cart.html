@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="cart.css">
+	<title>Giỏ hàng</title>
+</head>
+<body>
+	<div class="head">
+		<ul>
+			<li><a href="#">Find a store</a></li>
+			<li>|</li>
+			<li><a href="#">Help</a></li>
+			<li>|</li>
+			<li><a href="#">Join Us</a></li>
+			<li>|</li>
+			<li><a href="#">Cart</a></li>
+			<li>|</li>
+			<li><a href="login.html" target="_blank">Sign In</a></li>
+		</ul>
+	</div>
+	<div class="menu">
+		<ul>
+			<a href="index.html"><img src="logo.png"></a>
+			<li><a href="listproduct.html" target="_blank">New & Featured</a>
+				<ul class="sub-menu">
+					<li><a href="#">New Collection</a></li>
+					<li><a href="#">New Project</a></li>
+				</ul></li>
+			<li><a href="listproduct.html" target="_blank">Jacket</a></li>
+			<li><a href="listproduct.html" target="_blank">FeedBack</a></li>
+			<li><a href="listproduct.html" target="_blank">T-Shirt</a>
+				<ul class="sub-menu">
+					<li><a href="#">Men</a></li>
+					<li><a href="#">Women</a></li>
+					<li><a href="#">UniSex</a></li>
+				</ul></li>
+			<li><a href="listproduct.html" target="_blank">Shoes</a>
+				<ul class="sub-menu">
+					<li><a href="#">Nike</a></li>
+					<li><a href="#">Jordan</a></li>
+					<li><a href="#">Adidas</a></li>
+				</ul></li>
+			<li><a href="listproduct.html" target="_blank">Other</a></li>
+		</ul>
+	</div>
+		<div class="container">
+			<h1>Cart</h1>
+			<table>
+				<thead>
+					<tr>
+						<th>Product</th>
+						<th>Quantity</th>
+						<th>Price</th>
+						<th>Total</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							<div>
+								<img src="product1.jpg" alt="Áo thun nam" style="width:100px;height:100px;float:left;margin-right:20px;">
+								<div>
+									<h3>Zodiac Tee Viền Cổ Đỏ</h3>
+									<p>Color: Cream</p>
+									<p>Size: XL</p>
+								</div>
+							</div>
+						</td>
+						<td>
+							<input type="number" value="2" min="1">
+						</td>
+						<td>$15,00</td>
+						<td>$30,00</td>
+					</tr>
+					<tr>
+						<td>
+							<div>
+								<img src="product5.jpg" alt="Quần jean nữ" style="width:100px;height:100px;float:left;margin-right:20px;">
+								<div>
+									<h3>Nike Air 1 Green Low</h3>
+									<p>Coler: White</p>
+									<p>Size: 44.5</p>
+								</div>
+							</div>
+						</td>
+						<td>
+							<input type="number" value="1" min="1">
+						</td>
+						<td>$145,00</td>
+						<td>$145,00</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td colspan="3">Total Price</td>
+						<td>$175,00</td>
+					</tr>
+				</tfoot>
+			</table>
+			<button>Pay</button>
+		</div>
+</body>
+</html>

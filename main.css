@@ -1,0 +1,146 @@
+@import url(https://fonts.googleapis.com/css?family=Muli);
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Muli', Arial, sans-serif
+}
+@media (max-width: 768px) {
+  .menu li {
+    font-size: 16px;
+    padding: 8px 10px;
+  }
+}
+.menu {
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  line-height: 1em;
+  margin: 15px 40px;
+}
+.menu ul{
+  text-align: center;
+  padding-bottom: 20px;
+}
+.menu li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0.5em 0.6em;
+  padding: 12px 15px;
+  position: relative;
+}
+.menu li a {
+  color: black;
+  text-decoration: none;
+}
+.menu li:before,
+.menu li:after {
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.75s ease;
+  height: 2px;
+  width: 35%;
+  background-color: black;
+  position: absolute;
+  content: '';
+  opacity: 0;
+}
+.menu li:before {
+  top: 0;
+  left: 0;
+}
+.menu li:after {
+  bottom: 0;
+  right: 0;
+}
+.menu li:hover:before,
+.menu li.hover:before,
+.menu li:hover:after,
+.menu li.hover:after {
+  opacity: 1;
+}
+.menu li:hover:before,
+.menu li.hover:before {
+  left: 65%;
+}
+.menu li:hover:after,
+.menu li.hover:after {
+   right: 65%;
+}
+
+.menu img{
+    width: 130px;
+    height: 100px;
+    border: 50%;
+}
+
+.head ul{
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    right: 100px;
+}
+
+.head ul li a{
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;   
+    color: black; 
+    font-size: 18px;
+}
+
+.picture img{
+    height: 100%;
+    width: 100%;
+}
+
+.search 
+{
+    text-align: center;
+}
+
+.search ul li 
+{
+  list-style-type: none;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.search ul li a {
+  text-decoration: none;
+  color: black;
+}
+.picture img:hover{
+  opacity: 0.5;
+}
+
+
+.info ul {
+  display: flex;
+  text-align: center;
+  background: rgb(240, 240, 240);
+}
+
+.info ul li {
+  list-style-type: none;
+  padding: 30px;
+}
+
+.info ul li a{
+  text-decoration: none;
+  color: black;
+  padding-right: 20px;
+}
+
+.menu ul li .sub-menu{
+  display: none;
+}
+
+
+
+.menu ul li:hover .sub-menu{
+  display: block;
+  position: absolute;
+}
+
+
+#icon1{
+  margin-right: 2px;
+}

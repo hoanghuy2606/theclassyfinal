@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(100deg , #1d1e1f,#ddd9d0);
+    overflow: hidden;
+    height: 100vh;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;    
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.05);
+    transform: translate(-50%, -50%);
+}
+
+.center h1{
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .username{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+
+.username input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.username label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+form .password{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+
+.password input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.password label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+form .re_pass{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+
+.re_pass input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.re_pass label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+form .email{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+}
+
+.email input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.email label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.password input:focus ~ label,
+.password input:valid ~ label{
+  top: -5px;
+  color: #a6a6;
+}
+.username input:focus ~ label,
+.username input:valid ~ label{
+  top: -5px;
+  color: #a6a6;
+}
+
+.re_pass input:focus ~ label,
+.re_pass input:valid ~ label{
+  top: -5px;
+  color: #a6a6;
+}
+.email input:focus ~ label,
+.email input:valid ~ label{
+  top: -5px;
+  color: #a6a6;
+}
+
+.login a{
+    text-decoration: none;
+    margin-left: 120px;
+    color: white;
+    line-height: 60px;
+    display: block;
+    font-size: 20px;
+}
+
+.login{
+    background-color: rgb(56, 70, 190);
+    height: 60px;
+    border-radius: 20px;
+    width: 300px;
+    margin: auto;
+    transition: 1s;
+    border: 3px solid rgb(56, 70, 190);
+    margin-bottom: 20px;
+}
+
+.login:hover{
+    background-color: white;
+}
+.login a:hover{
+    color: black;
+}

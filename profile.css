@@ -1,0 +1,55 @@
+*{
+    font-family: 'Muli', Arial, sans-serif
+}
+
+.cover{
+    border: 1px solid black;
+    height: 650px;
+    width: 600px;
+    margin: auto;
+    border: 3px solid lightblue;
+   border-radius: 20px;
+   background-color: rgb(83, 104, 160);
+   box-shadow: 20px 20px 20px 20px rgb(36, 102, 128);
+}
+
+.img{
+    height: 300px;
+    width: 500px;
+    margin: auto;
+}
+
+.img img{
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left: 150px;
+    border-radius: 50%;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.info{
+    height: 300px;
+    width: 600px; 
+    float: left;
+}
+
+.info ul {
+    list-style-type: none;
+}
+
+.info ul li{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+.info ul li .profile{
+    color: rgb(0, 229, 255);
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
